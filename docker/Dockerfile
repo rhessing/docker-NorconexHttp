@@ -1,7 +1,9 @@
 FROM openjdk:8-jdk-alpine
 
 ENV CRAWLER_HOME /opt/collector-http
-RUN groupadd crawler && useradd -g norconex norconex
+
+RUN addgroup norconex && \
+    adduser -D -G norconex norconex
 
 RUN mkdir -p ${CRAWLER_HOME}
 COPY ./ ${CRAWLER_HOME}
