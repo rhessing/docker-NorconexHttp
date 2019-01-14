@@ -1,0 +1,1 @@
+Diectory for the main config file, use this location to mount your own configuration.
