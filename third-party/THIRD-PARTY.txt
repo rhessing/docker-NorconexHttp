@@ -1,5 +1,7 @@
 
-Lists of 160 third-party dependencies.
+Lists of 162 third-party dependencies.
+     MySQL Connector/J 8.0
+     dbschema/cassandra-jdbc-driver
      (GNU LESSER GENERAL PUBLIC LICENSE) c3p0:JDBC DataSources/Resource Pools (c3p0:c3p0:0.9.1.1 - http://c3p0.sourceforge.net)
      (The BSD License) XMP Library for Java (com.adobe.xmp:xmpcore:5.1.2 - http://www.adobe.com/devnet/xmp.html)
      (The Apache Software License, Version 2.0) JCommander (com.beust:jcommander:1.35 - http://beust.com/jcommander)
